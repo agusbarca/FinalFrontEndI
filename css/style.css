@@ -1,0 +1,606 @@
+/* ---general---- */
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+header{
+    margin: 0 9%;
+}
+
+section{
+    margin: 0 9%;
+}
+
+/* --- todo HEADER --- */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 174px;
+}
+
+header img:nth-of-type(1){
+    display: flex;
+    width: 145.54px;
+    height: 23.74px;
+}
+
+header nav ul{
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+}
+
+header nav ul li{
+    font-size: 13px;
+    justify-content: space-between;
+    margin: 0 10px;
+    color: #242E52;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #242E52;
+}
+
+header nav ul li a:hover{
+    color: #a8b1d5;
+}
+
+
+header img:nth-of-type(2){
+    display: none;
+}
+
+/* --- todo MAIN --- */
+/* section HOME */
+section.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 90px;
+    flex-wrap: wrap-reverse;
+}
+
+section.home article{
+    display: flex;
+    width: 439px;
+    height: 380px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section.home article h1{
+    font-size: 50px;
+}
+
+/* el p y el titulo tendrian que ir mas pegados */
+section.home article p{
+    height: 71px;
+    width: 350px;
+    line-height: 26.01px;
+    font-weight: 500;
+}
+
+/* section NOSOTROS */
+section.nosotros{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+section.nosotros h3{
+    font-size: 36px;
+}
+
+section.nosotros div ol{
+    list-style-type: none;
+}
+
+section.nosotros div ol li{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.nosotros div ol p{
+    font-size: 16px;
+    line-height: 25.52px;
+    color: #B3B2B7;
+}
+
+section.nosotros div ol li article h4{
+    font-size: 16px;
+    line-height: 25.52px;
+    margin-bottom: 18px;
+}
+
+section.nosotros div ol li span{
+    color: #FFFFFF;
+    background: #F3603B;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 10px 23px;
+    position: absolute;
+    right: 430px;
+    bottom: 115px;
+}
+
+section.nosotros div:nth-of-type(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 433px;
+    height: 230px;
+}
+
+section.nosotros div:nth-of-type(1) p{
+    width: 350px;
+    line-height: 26.01px;
+    font-weight: 500;
+}
+
+section.nosotros div:nth-of-type(2){
+    width: 437px;
+}
+
+section.nosotros div ol li:nth-child(1){
+    margin-top: 20px;
+}
+
+section.nosotros div ol li:nth-of-type(2){
+    margin-top: 40px;
+}
+
+section.nosotros div ol li:nth-of-type(3){
+    margin-top: 40px;
+}
+
+/* section TESTIMONIOS */
+section.testimonios{
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 9%;
+    text-align: center;
+    align-items: center;
+}
+
+section.testimonios h3{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+section.testimonios div{
+    height: 219px;
+    display: flex;
+}
+
+section.testimonios div article img{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    left: 184px;
+    bottom: 190px;
+}
+
+section.testimonios div article{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 435px;
+}
+
+section.testimonios div article div{
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+    text-align: center;
+    padding: 50px 28px 0 28px;
+}
+
+section.testimonios div article div p{
+    color: #B9B9C1;
+    font-size: 14px;
+    line-height: 25.06px;
+    margin-top: 10px;
+}
+
+section.testimonios button{
+    margin-bottom: 30px;
+}
+
+section.invitacion{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F3603B;
+    padding: 64px 135px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 120px 0 0 0;
+}
+
+section.invitacion h2{
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 47.84px;
+    color: white;
+    width: 438px;
+}
+
+section.invitacion button{
+    background-color: white;
+    color: #F3603B;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+section.invitacion button:hover{
+    background-color: rgb(255, 255, 255, 0.9);
+}
+
+/* todo FOOTER */
+footer{
+    background-color: #1E1E26;
+    color: white;
+    display: flex;
+    height: 247px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 53px 150px;
+}
+
+footer div span.iconos{
+    margin: 0;
+}
+
+footer div span.iconos i{
+    font-size: 20px;
+}
+
+footer div span.iconos i:hover{
+    color: #F3603B;
+    cursor: pointer;
+}
+
+footer div:nth-of-type(1){
+    display: flex;
+    height: 127px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer div:nth-of-type(1) span{
+    display: flex;
+    justify-content: space-between;
+    font-size: 120%;
+}
+
+footer div nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 140px;
+    padding: 0;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+footer div nav ul li{
+    display: flex;
+    padding: 7px 200px 7px 0;
+}
+
+footer div nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer div nav ul li a:hover{
+    color: #F3603B;
+}
+
+footer div:nth-of-type(3){
+    display: flex;
+    height: 127px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer div:nth-of-type(3) form{
+    display: inline-block;
+    margin-right: 7px;
+}
+
+footer span form input{
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    border: none;
+    padding: 10px;
+    width: 201px;
+    height: 44px;
+}
+
+footer div span form input:focus{
+    outline: none;
+}
+
+footer div span form input:invalid{
+    border: 1px red solid;
+    color: red;
+}
+
+footer button{
+    width: 63px;
+    height: 42px;
+    background-color: #F3603B;
+    color: white;
+    border-radius: 50px;
+    border: none;
+}
+
+footer div p{
+    color: #8C8C94;
+    font-size: 12px;
+    text-align: right;
+}
+
+/* ---elementos repetidos--- */
+button.start{
+    color: white;
+    background-color: #F3603B;
+    border: none;
+    font-size: 13.18px;
+    Width: 134px;
+    Height: 44px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+}
+
+button:hover{
+    background-color: rgba(255, 158, 133, 0.9);
+    cursor: pointer;
+}
+
+h1, h2, h3, h4{
+    color: #232C50;
+}
+
+/* media queries */
+@media (max-width: 500px) {
+    header{
+        height: 120px;
+    }
+    
+    header img:nth-of-type(1){
+        width: 110px;
+        height: auto;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    header button{
+        display: none;
+    }
+
+    header img:nth-of-type(2){
+        display: block;
+    }
+
+    section.home{
+        margin: 0 10px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    section.home article{
+        width: 310px;
+        height: auto;
+        align-items: center;
+    }
+
+    section.home article h1{
+        font-size: 35px;
+    }
+
+    section.home article p{
+        width: auto;
+        color: #B3B2B7;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    section.home article button{
+        margin: 40px auto 85px auto;
+    }
+
+    section.home img{
+        height: 300px;
+    }
+
+    section.nosotros{
+        margin: 0;
+    }
+
+    section.nosotros div:nth-of-type(1){
+        text-align: center;
+        height: auto;
+        padding: 0 33px;
+    }
+
+    section.nosotros div h3 {
+        font-size: 30px;
+    }
+
+    section.nosotros div:nth-of-type(1) p{
+        color: #B3B2B7;
+        font-weight: 400;
+        width: auto;
+        margin: 20px auto 45px auto;
+        line-height: 29px;
+    }
+
+    section.nosotros div:nth-of-type(2) {
+        width: auto;
+    }
+
+    section.nosotros div ol {
+        padding: 0;
+        margin-left: 20px;
+    }
+    
+    section.nosotros div ol span{
+        display: none;
+    }
+
+    section.nosotros div ol li article p {
+        line-height: 30px;
+        font-size: 14px;
+        padding-right: 20px;
+    }
+
+    section.nosotros div ol li article h4{
+        background-color: rgb(255, 239, 234);
+        padding: 5px 0;
+        border-radius: 50px 0 0 50px;
+        font-size: 15px;
+    }
+
+    section.nosotros div ol li article h4:before{
+        color: #FFFFFF;
+        background: #F3603B;
+        font-size: 13px;
+        font-weight: 600;
+        border-radius: 30px;
+        padding: 10px 23px;
+        margin-right: 13px;
+    }
+
+    section.nosotros div ol li:nth-of-type(1) article h4:before {
+        content: "01";
+    }
+    section.nosotros div ol li:nth-of-type(2) article h4:before {
+        content: "02";
+    }
+    section.nosotros div ol li:nth-of-type(3) article h4:before {
+        content: "03";
+    }
+
+    section.testimonios {
+        margin-top: 60px;
+    }
+
+    section.testimonios h3{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    section.testimonios div article div h4{
+        font-size: 13px;
+        padding-bottom: 12px;
+    }
+
+    section.testimonios div article div {
+        padding: 50px 28px 0 28px;
+    }
+
+    section.testimonios div article:nth-child(odd){
+        display: none;
+    } 
+
+    section.testimonios div article:nth-of-type(2){
+        width: 320px;
+        font-size: 12.5px;
+    }
+
+    section.testimonios div article img{
+        left: 123px;
+    }
+
+    section.testimonios div article div p {
+        margin-top: 0;
+    }
+    
+    section.invitacion{
+        padding: 90px 35px;
+        text-align: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    section.invitacion button{
+        margin-top: 20px;
+    }
+
+    footer{
+        position: relative;
+        height: auto;
+        padding: 53px 12px 20px 12px;
+        flex-direction: column-reverse;
+    }
+
+    footer div:nth-of-type(1){
+        flex-direction: column-reverse;
+        height: 95px;
+        width: 270px;
+        margin-bottom: 80px
+        ;
+    }
+
+    footer div img{
+        height: 27px;
+    }
+
+    footer div span.iconos i{
+        font-size: 30px;
+    }
+
+    footer div:nth-of-type(2){
+        width: 240px;
+        padding: 35px 0;
+    }
+
+    footer div nav ul{
+        height: 130px;
+    }
+    footer div nav ul li{
+        padding: 7px 110px 7px 0;
+        font-size: 13px;
+    }
+
+    footer div nav ul li:nth-child(5){
+        padding: 7px 0 7px 0;
+    }
+
+    footer div nav ul li:nth-child(6){
+        padding: 7px 0 7px 0;
+    }
+
+    footer div nav ul li:nth-child(7){
+        padding: 7px 0 7px 0;
+    }
+
+    footer div:nth-of-type(3){
+        height: auto;
+    }
+
+    footer div:nth-of-type(3) form input{
+        margin-right: 10px;
+        width: 240px;
+    }
+
+    footer div p{
+        position: absolute;
+        top: 430px;
+        right: 75px;
+    }
+}
